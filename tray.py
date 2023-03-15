@@ -4,6 +4,7 @@ import pystray
 import os
 from PIL import Image, ImageDraw
 
+dir = os.path.dirname(os.path.abspath(__file__))
 icon = pystray.Icon("Some Tray Item")
 icon.title = "Battery Conservation Mode"
 
@@ -11,7 +12,6 @@ f = open("/sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode", 
 raw_state = f.readline(1)
 
 state = True if raw_state == '1' else False
-print(state)
 
 def set_conservation_mode(mode):
     if mode == True:
@@ -26,7 +26,7 @@ def on_click(icon, item):
     set_conservation_mode(state)
 
 def create_image():
-    image = Image.open("icon.png")
+    image = Image.open(dir + "/icon.png")
     return image
 
 icon.icon = create_image()
