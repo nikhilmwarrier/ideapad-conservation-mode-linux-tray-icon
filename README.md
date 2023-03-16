@@ -1,7 +1,10 @@
 # Battery Conservation Mode tray icon for Lenovo Ideapad / V14 / V15 laptops running Linux
 
-Note: Tested only on Ideapad V15 Gen 2 running Fedora 36 KDE Plasma Spin, but
-this should work on most Ideapads and V14/V15 laptops.
+Tested on:
+- Ideapad V15 Gen 2 running Fedora 36 KDE Plasma Spin
+- Ideapad Gaming 3 running Kali Linux  
+  
+(This should work on most Ideapads and V14/V15 laptops.)
   
 "Conservation Mode" is a feature in some Lenovo laptops which keeps the battery
 at around 60% charge while running on AC. This supposedly slows down the
