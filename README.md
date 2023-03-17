@@ -1,7 +1,7 @@
 # Battery Conservation Mode tray icon for Lenovo Ideapad / V14 / V15 laptops running Linux
 
 Tested on:
-- Ideapad V15 Gen 2 running Fedora 36 KDE Plasma Spin
+- Lenovo V15 Gen 2 running Fedora 36 KDE Plasma Spin
 - Ideapad Gaming 3 running Kali Linux  
   
 (This should work on most Ideapads and V14/V15 laptops.)
