@@ -32,8 +32,8 @@ $ pip install -r ./requirements.txt
   
 3. Make the script executable and run it  
 ```bash  
-$ sudo chmod +x ./tray.py
-$ ./tray.py
+$ sudo chmod +x ./battery-conservation-tray-icon.py
+$ ./battery-conservation-tray-icon.py
 ```  
   
 It is recommended to add this script to your list of autostart programs.
